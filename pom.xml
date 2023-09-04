@@ -8,3 +8,32 @@
     <artifactId>my-project</artifactId>
     <version>1.0.0</version>
 </project>
+
+<project>
+  <!-- Other project configuration elements -->
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+        <configuration>
+          <warName>my-project</warName> <!-- Optional: Specify the desired name of the WAR file -->
+          <webResources>
+            <resource>
+              <directory>src/main/webapp</directory> <!-- Path to your web application resources -->
+              <targetPath>/</targetPath>
+              <includes>
+                <include>**/*.jsp</include> <!-- Include specific resources if needed -->
+                <include>**/*.html</include>
+              </includes>
+            </resource>
+          </webResources>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+  <!-- Other project configuration elements -->
+</project>
