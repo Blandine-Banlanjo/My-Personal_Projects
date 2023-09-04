@@ -19,7 +19,7 @@
     </properties>
 </project>
 
- <modules>
+  <modules>
     <module>server</module>
     <module>webapp</module>
   </modules>
