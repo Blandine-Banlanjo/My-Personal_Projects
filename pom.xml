@@ -13,10 +13,10 @@
   <url>http://www.example.com</url>
 </project>
 
-<properties>
+  <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-  </properties>
+    </properties>
 
   <modules>
     <module>server</module>
